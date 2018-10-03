@@ -9,7 +9,7 @@ from http import HTTPStatus
 import json
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.exc import NoResultFound
-import util
+from . import util
 
 
 # By default validate_response will return the full stack trace to the client.
