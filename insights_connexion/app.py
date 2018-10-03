@@ -26,6 +26,8 @@ session = db.init()
 validator_map = {
     'response': CustomResponseValidator
 }
+print('distutils')
+print(distutils)
 debug = distutils.util.strtobool(config.debug)
 app = connexion.App('tag',
                     specification_dir='swagger/',
